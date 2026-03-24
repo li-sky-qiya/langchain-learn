@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 
-from test_llm.my_llm import llm_openai
+from agent.my_llm import llm_openai
 
 
 class Movie(BaseModel):

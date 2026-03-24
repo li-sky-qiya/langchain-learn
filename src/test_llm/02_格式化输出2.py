@@ -1,7 +1,7 @@
 from langchain_core.output_parsers import SimpleJsonOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
-from test_llm.my_llm import llm_qwen
+from agent.my_llm import llm_qwen
 
 prompt = ChatPromptTemplate.from_template(
     "尽你所能回答用户的问题，语言为中文。"  # 基本指令

@@ -3,7 +3,7 @@ from langchain_core.rate_limiters import InMemoryRateLimiter
 from langchain_deepseek import ChatDeepSeek
 from langchain_openai import ChatOpenAI
 
-from env_utils import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, CHATGPT_API_KEY, CHATGPT_BASE_URL, QWEN_API_KEY, \
+from src.agent.env_utils import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, CHATGPT_API_KEY, CHATGPT_BASE_URL, QWEN_API_KEY, \
     QWEN_BASE_URL
 
 # 使用OpenAI调用

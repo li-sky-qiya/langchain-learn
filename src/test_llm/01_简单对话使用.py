@@ -1,4 +1,4 @@
-from test_llm.my_llm import llm_deepseek, llm_openai, rate_llm
+from agent.my_llm import rate_llm
 
 # resp = llm_deepseek.invoke("请用三句话介绍一下，机器学习的基本概念")
 # print(type(resp))
